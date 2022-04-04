@@ -1,0 +1,16 @@
+body {
+  background-color: #222;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  background-color: #333;
+  border: black 3px solid;
+  margin: auto;
+  padding: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 20px;
+  width: 80%;
+}
