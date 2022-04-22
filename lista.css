@@ -1,5 +1,5 @@
 *{/*Configurações globais*/
-   height: 320%;
+   height: 305%;
 }
 body{
     height: auto;
@@ -76,4 +76,7 @@ a{
     background-color: white;
     padding: 10px 0;
     text-align: center;
+}
+img{
+    width: 90%;
 }
