@@ -1,0 +1,79 @@
+*{/*Configurações globais*/
+   height: 320%;
+}
+body{
+    height: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to bottom right, #00ffb3, #00a2ff);
+}
+header{
+    padding: 0 30px;
+    border-radius: 10px;
+    background-color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+header li{
+    list-style: none;
+}
+nav p{
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+#hobbies{
+    margin-top: 70px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 0;
+}
+#hobbies h1{
+    text-align: center;
+}
+#rotina{
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 0;
+}
+#rotina h1{
+    text-align: center;
+}
+#linko{
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+#linko h1{
+    text-align: center;
+}
+#linko li{
+    list-style: none;
+}
+#linke{
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+#linke h1{
+    text-align: center;
+}
+#linke li{
+    list-style: none;
+}
+#curiosidade{
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+}
