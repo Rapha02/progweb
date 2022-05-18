@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário</title>
+</head>
+<body>
+    <h1>Creator</h1>
+    <p>Olá, aventureiro(a)!</p>
+    <p>Antes de começar a aventura, crie seu personagem:</p>
+    <form>
+            <div>
+                <legend>Apelido:</legend>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <br>
+            <div>
+                <legend>Idade:</legend>
+                <input type="number" min="0" max="150" name="" id="" style="height: 20px; width: 10%;">
+            </div>
+            <br>
+            <div>
+                <legend>Gênero:</legend>
+                <select name="gender" id="gender">
+                    <option selected disable value="selected">Selecione</option>
+                    <option value="masc">Masculino</option>
+                    <option value="fem">Feminino</option>
+                    <option value="pnd">Prefiro não dizer / Outro</option>
+                </select>
+            <div>
+            <br>
+            <div>
+                <legend>Classe:</legend>
+                <select name="classe" id="select">
+                    <option selected disabled value="">Selecione</option>
+                    <option value="guerreiro">Guerreiro</option>
+                    <option value="mago">Mago</option>
+                    <option value="arqueiro">Arqueiro</option>
+                 </select>
+            </div>
+            <br>
+            <div>
+                <legend>Raça:</legend>
+                <select name="raca" id="raca">
+                    <option selected disable value="selected">Selecione</option>
+                    <option value="humans">Humanos</option>
+                    <option value="elfos">Elfos</option>
+                    <option value="anoes">Anoes não dizer / Outro</option>
+                    <option value="gobl">Goblins</option>
+                    <option value="gn">Gnomos</option>
+                </select>
+            <div>
+            <br>
+            <div>
+                <button type="submit">Criar</button>
+            </div>
+    </form>
+</body>
+</html>
