@@ -1,24 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+	<title>Formulário</title>
 </head>
-<body style="background-color: aliceblue;">
-    <h1>Login</h1>
-    <p>Para ir para o menu de criação, entre com seu email e senha.</p>
-    <form action="t2.html" method="POST">
-        <div>
-            <input type="email" name="login" id="login" placeholder="login">
-        </div>
-        <div>
-            <input type="password" name="senha" id="senha" placeholder="senha">
-        </div>
-        <div>
-            <input type="submit" value="enviar">
-        </div>
+<body>
+    <h1>Creator</h1>
+    <p>Olá, aventureiro(a)!</p>
+    <p>Antes de começar a aventura, crie seu personagem:</p>
+    <form>
+            <div>
+                <legend>Apelido:</legend>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <br>
+            <div>
+                <legend>Idade:</legend>
+                <input type="number" min="0" max="150" name="" id="" style="height: 20px; width: 10%;">
+            </div>
+            <br>
+            <div>
+                <legend>Gênero:</legend>
+                <select name="gender" id="gender">
+                    <option selected disable value="selected">Selecione</option>
+                    <option value="masc">Masculino</option>
+                    <option value="fem">Feminino</option>
+                    <option value="pnd">Prefiro não dizer / Outro</option>
+                </select>
+            <div>
+            <br>
+            <div>
+                <legend>Classe:</legend>
+                <select name="classe" id="select">
+                    <option selected disabled value="">Selecione</option>
+                    <option value="guerreiro">Guerreiro</option>
+                    <option value="mago">Mago</option>
+                    <option value="arqueiro">Arqueiro</option>
+                 </select>
+            </div>
+            <br>
+            <div>
+                <legend>Raça:</legend>
+                <select name="raca" id="raca">
+                    <option selected disable value="selected">Selecione</option>
+                    <option value="humans">Humanos</option>
+                    <option value="elfos">Elfos</option>
+                    <option value="anoes">Anoes não dizer / Outro</option>
+                    <option value="gobl">Goblins</option>
+                    <option value="gn">Gnomos</option>
+                </select>
+            <div>
+            <br>
+            <div>
+                <button type="submit">Criar</button>
+            </div>
     </form>
 </body>
 </html>
