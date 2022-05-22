@@ -4,12 +4,14 @@ body{
     font-family: 'Macondo', cursive;
     background-color: aliceblue;
     text-align: center;
+    margin: 0;
     }       
 form{
     border-radius: 5px;
     background-color: azure;
     margin: 30px 300px;
     padding: 40px;
+    padding-bottom: 0;
     text-align: left;
 }
 #button{
