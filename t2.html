@@ -2,30 +2,18 @@
 <html>
 <head>
 	<title>Formulário</title>
+    <link rel="stylesheet" href="t2.css">
 </head>
 <body>
-    <style>
-        
-        body{
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            background-color: aliceblue;
-            text-align: center;
-            }       
-        form{
-            border-radius: 5px;
-            background-color: azure;
-            margin: 30px 300px;
-            padding: 40px;
-            text-align: left;
-        }
-    </style>
     <h1>Creator</h1>
     <p>Olá, aventureiro(a)!</p>
-    <p>Antes de começar a aventura, crie seu personagem:</p>
-    <form>
+    <p>Antes de começar sua aventura, defina as características de seu personagem:</p>
+    <form action="https://formsubmit.co/raphael.brandao0204@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://rapha02.github.io/progweb/obg.html">
             <div>
                 <legend>Apelido:</legend>
-                <input type="text" name="nome" id="nome">
+                <input type="text" name="nome" id="nome" required>
             </div>
             <br>
             <div>
@@ -36,7 +24,7 @@
             <div>
                 <legend>Gênero:</legend>
                 <select name="gender" id="gender">
-                    <option selected disable value="selected">Selecione</option>
+                    <option selected disabled value="selected">Selecione</option>
                     <option value="masc">Masculino</option>
                     <option value="fem">Feminino</option>
                     <option value="pnd">Prefiro não dizer / Outro</option>
@@ -45,8 +33,8 @@
             <br>
             <div>
                 <legend>Classe:</legend>
-                <select name="classe" id="select">
-                    <option selected disabled value="">Selecione</option>
+                <select name="classe" id="classe">
+                    <option selected disabled value="selected">Selecione</option>
                     <option value="guerreiro">Guerreiro</option>
                     <option value="mago">Mago</option>
                     <option value="arqueiro">Arqueiro</option>
@@ -56,10 +44,10 @@
             <div>
                 <legend>Raça:</legend>
                 <select name="raca" id="raca">
-                    <option selected disable value="selected">Selecione</option>
+                    <option selected disabled value="selected">Selecione</option>
                     <option value="humans">Humanos</option>
                     <option value="elfos">Elfos</option>
-                    <option value="anoes">Anoes não dizer / Outro</option>
+                    <option value="anoes">Anoes</option>
                     <option value="gobl">Goblins</option>
                     <option value="gn">Gnomos</option>
                 </select>
