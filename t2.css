@@ -17,3 +17,33 @@ form{
 #button{
     text-align: center;
 }
+@media screen and (max-width: 900px) {
+    form {
+        border-radius: 5px;
+        background-color: azure;
+        margin: 25px 200px;
+        padding: 30px;
+        padding-bottom: 0;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 768px) {
+    form {
+        border-radius: 5px;
+        background-color: azure;
+        margin: 20px 130px;
+        padding: 20px;
+        padding-bottom: 0;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 600px) {
+    form {
+        border-radius: 5px;
+        background-color: azure;
+        margin: 5px 50px;
+        padding: 10px;
+        padding-bottom: 0;
+        text-align: left;
+    }
+}
