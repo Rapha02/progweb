@@ -47,3 +47,23 @@ form{
         text-align: left;
     }
 }
+@media screen and (max-width: 500px) {
+    form {
+        border-radius: 5px;
+        background-color: azure;
+        margin: 2px 30px;
+        padding: 6px;
+        padding-bottom: 0;
+        text-align: left;
+    }
+}
+@media screen and (max-width: 400px) {
+    form {
+        border-radius: 5px;
+        background-color: azure;
+        margin: 2px 20px;
+        padding: 3px;
+        padding-bottom: 0;
+        text-align: left;
+    }
+}
