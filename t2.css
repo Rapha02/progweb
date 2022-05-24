@@ -5,7 +5,10 @@ body{
     background-color: aliceblue;
     text-align: center;
     margin: 0;
-    }       
+}
+fieldset{
+    border-color: aquamarine;
+}
 form{
     border-radius: 5px;
     background-color: azure;
@@ -16,6 +19,18 @@ form{
 }
 #button{
     text-align: center;
+}
+#nome,#idade,#sjs{
+    font-family: 'Courier New', Courier, monospace;
+    border-color:aquamarine;
+}
+#but{
+    background-color:azure;
+    border-color:aquamarine;
+}
+#sx,#classe,#raca{
+    font-family: 'Courier New', Courier, monospace;
+    border-color: aqua;
 }
 @media screen and (max-width: 900px) {
     form {
