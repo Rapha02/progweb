@@ -30,7 +30,8 @@ form{
 }
 #gnr,#classe,#raca{
     font-family: 'Courier New', Courier, monospace;
-    border-color: aqua;
+    border-color: aquamarine;
+    background-color: white;
 }
 @media screen and (max-width: 900px) {
     form {
